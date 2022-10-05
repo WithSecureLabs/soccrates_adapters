@@ -9,6 +9,21 @@ As these JSON files vary a lot in their layout between different infrastructures
 Soccrates project has designed a data model which makes it possible to link the details stored in this file with other details such as vulnerabilities found on hosts in the network.
 This data model is documented in the D3.3 report available at https://www.soccrates.eu/results/
 
+As an example, let's assume a firewall configuration JSON file contains routing information embedded as an array of routes objects in the document, such as:
+
+```
+  "routes": [
+	{
+			"id": "10.255.129.0/24",
+			"metric": 0,
+			"nextHop": "10.255.129.1",
+			"interface": "eth1",
+			"routesTo": "10.255.129.0/24"
+		}
+        ]
+
+```
+
 In the jq command below, the "routesTo" facts in the JSON is extracted and stored in CSV format: the input JSON in this case contains an array of routes in a fairly flat structure. The first part of the command extracts all facts related to routing from the file and the second part just converts these into an easier to process CSV format.
 
 ```
