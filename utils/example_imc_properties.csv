@@ -1,0 +1,5 @@
+"source","sourcetype","facttype","factdetail"
+"rule1","rule","applicationProtocol","HTTPS"
+"rule2","rule","applicationProtocol","any"
+"rule3","rule","applicationProtocol","any"
+"rule4","rule","applicationProtocol","SSH"

@@ -1,0 +1,20 @@
+act:
+    user:
+    password:
+    userid:
+    url:
+    writefacts: false
+radar:
+    apikey:
+    apisecretkey:
+    url: https://api.radar.f-secure.com/api/latest/
+general:
+    loglevel: DEBUG
+    domain: .targetdomain.com
+    outfile: out.txt
+    ipsonlyfromassets: true
+origin:
+    setname: false
+    name: agreed_origin
+    trust:  0.5
+    description: test origin

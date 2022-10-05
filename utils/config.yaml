@@ -1,0 +1,14 @@
+act:
+    user:
+    password:
+    userid:
+    url:
+    writefacts:
+general:
+    loglevel: INFO
+    outfile: out.txt
+origin:
+    setname: false
+    name: test_origin
+    trust:  0.5
+    description: test origin

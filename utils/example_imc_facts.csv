@@ -1,0 +1,5 @@
+"facttype","source","sourcetype","destination","destinationtype","factvalue"
+"routesTo","0.0.0.0/0","route","0.0.0.0/24","ipv4Network",""
+"routesTo","10.255.129.0/24","route","10.255.129.0/24","ipv4Network",""
+"routesTo","10.255.130.0/24","route","10.255.130.0/24","ipv4Network",""
+"routesTo","10.255.131.0/24","route","10.255.131.0/24","ipv4Network",""
