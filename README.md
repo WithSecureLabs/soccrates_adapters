@@ -6,7 +6,7 @@ WithSecure Elements Vulnerability Management (earlier known as F-Secure Radar) i
 For more details, including requesting demos and trial versions, visit https://www.withsecure.com/en/solutions/software-and-services/elements-vulnerability-management
 
 The adapters and utlities in this repository were created as part of WithSecure participation in the EU Soccrates project https://www.soccrates.eu/ , specifically to populate the Infrastructure Data Model.
-
+SOCCRATES has received funding from the European Union’s Horizon 2020 Research and Innovation program under Grant Agreement No. 833481 and work on this software was carried out using that funding.
 The adapter processes scan results from the organizations into Objects and Facts according to the agreed schema for the Infrastructure Modelling Component in WP3.
 
 Assets and vulnerabilities are written as Facts and Objects into the ACT DB provided by Mnemonic using the ACT API.
